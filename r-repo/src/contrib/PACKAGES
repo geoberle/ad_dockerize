@@ -1,0 +1,161 @@
+Package: AnomalyDetection
+Version: 1.0
+Depends: R (>= 2.10.0)
+Imports: ggplot2, stringr, lubridate
+Suggests: testthat
+License: Apache License 2.0
+MD5sum: 85cb2a8bdc5c363d0cc52976abc890f8
+NeedsCompilation: no
+
+Package: colorspace
+Version: 1.2-6
+Depends: R (>= 2.13.0), methods
+Imports: graphics
+Suggests: KernSmooth, MASS, kernlab, mvtnorm, vcd, dichromat, tcltk
+License: BSD_3_clause + file LICENSE
+MD5sum: a30191e9caf66f77ff4e99c062e9dce1
+NeedsCompilation: yes
+
+Package: dichromat
+Version: 2.0-0
+Depends: R (>= 2.10), stats
+License: GPL-2
+MD5sum: 84e194ac95a69763d740947a7ee346a6
+NeedsCompilation: no
+
+Package: digest
+Version: 0.6.8
+Depends: R (>= 2.4.1)
+License: GPL-2
+MD5sum: 5dbe19cf67151f9cc5387992fcb718f8
+NeedsCompilation: yes
+
+Package: ggplot2
+Version: 1.0.1
+Depends: R (>= 2.14), stats, methods
+Imports: plyr (>= 1.7.1), digest, grid, gtable (>= 0.1.1), reshape2,
+        scales (>= 0.2.3), proto, MASS
+Suggests: quantreg, Hmisc, mapproj, maps, hexbin, maptools, multcomp,
+        nlme, testthat, knitr, mgcv
+Enhances: sp
+License: GPL-2
+MD5sum: e287a45fee45b0cc22c8d4c1c0318d97
+NeedsCompilation: no
+
+Package: gtable
+Version: 0.1.2
+Depends: R (>= 2.14), grid
+Suggests: testthat, plyr
+License: GPL-2
+MD5sum: be491aa5220f0059a0e1cb04679b6563
+NeedsCompilation: no
+
+Package: labeling
+Version: 0.3
+License: MIT + file LICENSE | Unlimited
+MD5sum: ccd7082ec0b211aba8a89d85176bb534
+NeedsCompilation: no
+
+Package: lubridate
+Version: 1.3.3
+Depends: methods, R (>= 3.0.0)
+Imports: plyr, stringr, memoise
+Suggests: testthat, knitr
+Enhances: chron, timeDate, zoo, xts, its, tis, timeSeries, fts, tseries
+License: GPL
+MD5sum: fe7f3f34e7334b0955f5d449975f74de
+NeedsCompilation: yes
+
+Package: magrittr
+Version: 1.5
+Suggests: testthat, knitr
+License: MIT + file LICENSE
+MD5sum: e74ab7329f2b9833f0c3c1216f86d65a
+NeedsCompilation: no
+
+Package: memoise
+Version: 0.2.1
+Imports: digest
+License: MIT + file LICENSE
+MD5sum: f6b9e93035d24246502a99d654380399
+NeedsCompilation: no
+
+Package: munsell
+Version: 0.4.2
+Imports: colorspace
+Suggests: ggplot2 (>= 0.9.2)
+License: MIT + file LICENSE
+MD5sum: 45561402fe3ffb8e534a1487bb60d938
+NeedsCompilation: no
+
+Package: plyr
+Version: 1.8.2
+Depends: R (>= 3.1.0)
+Imports: Rcpp (>= 0.11.0)
+LinkingTo: Rcpp
+Suggests: abind, testthat, tcltk, foreach, doParallel, itertools,
+        iterators
+License: MIT + file LICENSE
+MD5sum: 8b6260225bba9fcaa8fc2e227688ff06
+NeedsCompilation: yes
+
+Package: proto
+Version: 0.3-10
+Suggests: graph, Rgraphviz
+License: GPL-2
+MD5sum: d5523943a5be6ca2f0ab557c900f8212
+NeedsCompilation: no
+
+Package: RColorBrewer
+Version: 1.1-2
+Depends: R (>= 2.0.0)
+License: Apache License 2.0
+MD5sum: 66054d83eade4dff8a43ad4732691182
+NeedsCompilation: no
+
+Package: Rcpp
+Version: 0.11.6
+Depends: R (>= 3.0.0)
+Imports: methods
+Suggests: RUnit, inline, rbenchmark, highlight, pkgKitten (>= 0.1.2)
+License: GPL (>= 2)
+MD5sum: 92598087da1f7897d267cafbce5f7f11
+NeedsCompilation: yes
+
+Package: reshape2
+Version: 1.4.1
+Imports: plyr (>= 1.8.1), stringr, Rcpp
+LinkingTo: Rcpp
+Suggests: testthat (>= 0.8.0), lattice
+License: MIT + file LICENSE
+MD5sum: 41e9dffdf5c6fa830321ac9c8ebffe00
+NeedsCompilation: yes
+
+Package: scales
+Version: 0.2.4
+Depends: R (>= 2.13)
+Imports: RColorBrewer, dichromat, munsell (>= 0.2), plyr (>= 1.2),
+        labeling, methods
+Suggests: testthat (>= 0.8)
+License: MIT + file LICENSE
+MD5sum: 957a5f6533c2baf0d1f030439d6ebc0b
+NeedsCompilation: no
+
+Package: stringi
+Version: 0.4-1
+Depends: R (>= 2.15.0)
+Imports: tools
+License: file LICENSE
+License_is_FOSS: yes
+MD5sum: 149a5e350b9edfaac88de197dee405ff
+NeedsCompilation: yes
+
+Package: stringr
+Version: 1.0.0
+Depends: R (>= 2.14)
+Imports: stringi (>= 0.4.1), magrittr
+Suggests: testthat, knitr
+License: GPL-2
+MD5sum: 5ca977c90351f78b1b888b379114a7b4
+NeedsCompilation: no
+
